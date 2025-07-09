@@ -5,7 +5,7 @@ This is a small python script to automate the use of SpotDL, a tool to download 
 
 ## **SETUP**
 **PACKAGES**:
-create a python venv with python -m venv venv, activate it, and use 
+create a python venv with `python -m venv venv`, activate it, and use 
 
     pip install -r requirements.txt
 to install the required packages.
@@ -28,4 +28,4 @@ leaving a " - " between the two. for example:
 
 Now you can use `donwloader.py` to download all the playlists, and `folder-sync.py` to copy the music to flashdrives, sd cards, and even to a phone using developer tools for android.
 
-This has been written with help of chatgpt and my knowledge. This isn't meant for people who don't know some computer and python basics, and isn't a final product. Use it if you know how to. Thanks
+This has been written with help of chatgpt and my knowledge. This isn't meant for people who don't know some computer and python basics, and isn't a final product. Use it if you know how to. Thanks!
