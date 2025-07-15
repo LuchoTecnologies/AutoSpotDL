@@ -82,6 +82,8 @@ def one_sync(link, folder):
         if client_id != "":
             sync_tmplt +=f' --client-id {client_id} --client-secret {client_secret}'
         sync_tmplt = sync_tmplt.replace('[folder]', folder)
+        sync_tmplt = sync_tmplt.replace('[link]', link)
+        
         os.system(sync_tmplt)
             
 def mult_choice(quest, choices):
